@@ -36,8 +36,7 @@
     });
   }); 
   
-  //wire up the left and right buttons
-  //select left button from the DOM
+  //wire up the left-right buttons, and select left button from the DOM
   let btnLeft = document.querySelector('.btnLeft');
   btnLeft.addEventListener('click', function(){
     imageCounter--;
